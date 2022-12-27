@@ -1,6 +1,6 @@
 function removeElement(array, element) {
     let index = 0;
-    for (var i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         if (array.includes(element)) {
             index = array.indexOf(element);
             array.splice(index, 1);
