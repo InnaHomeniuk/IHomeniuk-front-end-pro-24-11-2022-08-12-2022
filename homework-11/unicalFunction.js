@@ -6,7 +6,9 @@ function unical(array1, array2) {
             break;
         }
         const element = array1[i];
-        if (array2.includes(element)) { continue; }
+        if (array2.includes(element)) {
+            continue;
+        }
         uniqeArray.push((element));
     }
 
@@ -16,7 +18,9 @@ function unical(array1, array2) {
             break;
         }
         const element2 = array2[i];
-        if (array1.includes(element2)) { continue; }
+        if (array1.includes(element2)) {
+            continue;
+        }
         uniqeArray.push((element2));
     }
     return uniqeArray
