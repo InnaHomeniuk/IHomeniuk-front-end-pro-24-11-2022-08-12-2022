@@ -3,7 +3,8 @@ const greeting = function (user) {
     console.log(user.name);
     user.cities = user.cities.split(',');
     console.log(user.cities);
-    if (user.money === 'string') {
+    if (typeof user.money === 'string') {
+        console.log(typeof user.money);
         user.money = Number(user.money)
     };
     if (isNaN(user.money)) {
