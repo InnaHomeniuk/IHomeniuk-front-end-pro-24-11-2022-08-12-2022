@@ -1,4 +1,8 @@
 function longestWord(myString) {
+    if (!(typeof myString === 'string')) {
+        console.log('аргумент не стрiчка');
+        return ('');
+    }
     let myStringSplit = myString.split(' ');
     let wordLength = 0;
     let longestWord;
@@ -11,3 +15,4 @@ function longestWord(myString) {
     return longestWord;
 };
 console.log(longestWord('london is the capital of great britain its political economic and cultural centre'));
+//console.log(longestWord([5, 5]));
