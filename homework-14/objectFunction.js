@@ -1,21 +1,18 @@
 const greeting = function (user) {
-    const userName = user.name.toUpperCase();
-    console.log(userName);
-    const cityName = user.cities.split(',');
-    console.log(cityName);
-    moneyName = Math.round(user.money);
-    console.log(moneyName);
-    if (moneyName === 'string') {
-        moneyName = Number(moneyName)
+    user.name = user.name.toUpperCase();
+    console.log(user.name);
+    user.cities = user.cities.split(',');
+    console.log(user.cities);
+    if (user.money === 'string') {
+        user.money = Number(user.money)
     };
-    if (isNaN(moneyName)) {
-        console.log(`Money is NaN ${isNaN(moneyName)}`)
+    if (isNaN(user.money)) {
+        console.log(`Money is NaN ${isNaN(user.money)}`)
     }
-    if (user.children.length === 0) {
-        user.children.push = ({ name: 'Stepan', age: Math.floor(Math.random(user.children.age) * 18) });
-    }
+    user.money = Math.round(user.money);
+    console.log(user.money);
+    user.children.push = ({ name: 'Stepan', age: Math.floor(Math.random(user.children.age) * 18) });
     console.log(user.children);
-
 };
 const users = [
     {
