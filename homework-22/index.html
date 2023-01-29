@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_№22</title>
+    <style>
+        td {
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        table {
+            width: 80%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form class="my-form">
+        <p>Вкажіть ваше ім'я:</p>
+            <input name="firstname" type="text" minlength="3">
+        <p>Вкажіть ваше прізвище:</p>
+            <input name="surname" type="text" minlength="3">
+            <p>Вкажіть вашу дату народження:</p>
+            <input name="datebirth" type="date">
+        <p>Вкажіть вашу стать:</p>
+        <input type="radio" id="male" name="sex" value="man">
+        <label for="male">Чоловік</label><br>
+        <input type="radio" id="famale" name="sex" value="woman">
+        <label for="famale">Жінка</label><br>
+        <input type="radio" id="other" name="sex" value="other">
+        <label for="radio">Інша</label>
+        <p>Вкажіть ваше місто:</p>
+        <select name="city">
+            <option  value="----">не обрано</option>
+            <option value="Kyiv">Київ</option>
+            <option value="Odesa">Одеса</option>
+            <option value="Dnipro">Дніпро</option>
+            <option value="Lviv">Львів</option>
+        </select>
+        <p>Вкажіть мови, якими володієте:</p>
+        <input class="checkbox" type="checkbox" id="ua" name="language" value="ua" />
+        <label for="ua">Українська</label>
+        <input class="checkbox" type="checkbox" id="en" name="language" value="en" />
+        <label for="en">Англійська</label>
+    </br>
+</br>
+        <button type="submit" id="save">Зберегти</button>
+    </form>
+    <div id=elem></div>
+
+    <script src="./createTable_3.js"></script>
+</body>
+
+</html>
