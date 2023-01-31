@@ -1,0 +1,39 @@
+.slides {
+    width: 256px;
+    border: 2px solid black;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+img {
+    display: none;
+    width: 256px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+}
+
+.slider-line {
+    display: flex;
+    width: 1024px;
+
+}
+
+.block {
+    display: block;
+    object-fit: cover;
+}
+
+.btnRight {
+    right: 0;
+    position: absolute;
+}
+
+.btnLeft {
+    left: 0;
+    position: absolute;
+}
