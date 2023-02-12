@@ -1,0 +1,36 @@
+.root-nav{
+    width: 250px;
+}
+
+.root-nav li {
+    list-style-type: none;
+    background:rgb(243, 184, 184) ;
+    padding-left: 0;
+    position: relative;
+}
+
+.root-nav span {
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.root-nav ul {
+    display: none;
+right: -250px;
+top: 0;
+width: 250px;
+position: absolute;
+}
+
+ul.sub-menu-activ {
+    display: block;
+}
+
+span.sub-menu-activ-span{
+    background: rgb(144, 188, 24);
+}
+
+.btn {
+    margin-left: 100px;
+}
