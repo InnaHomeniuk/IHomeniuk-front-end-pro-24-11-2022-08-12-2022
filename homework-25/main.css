@@ -1,0 +1,24 @@
+#my-popup {
+    width: 400px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    background-color: rgb(167, 59, 59);
+    border-radius: 6px;
+    text-align: center;
+    position: absolute;
+    display: none;
+}
+
+
+
+#my-text {
+    width: 400px;
+    padding: 20px;
+    background: #bbb;
+    border-radius: 6px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
